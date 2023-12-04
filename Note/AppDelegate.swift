@@ -8,8 +8,7 @@
 import UIKit
 import CoreData
 
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+@UIApplicationMain class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var navigationController: UINavigationController?
     
