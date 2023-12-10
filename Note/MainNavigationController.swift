@@ -33,16 +33,23 @@ class MainNavigationController: UINavigationController {
         navigationBar.shadowImage = UIImage()
         navigationBar.isTranslucent = false
         
-        logoAnimation.frame = .zero
-        logoAnimation.contentMode = .scaleAspectFit
-        logoAnimation.loopAnimation = false
-        logoAnimation.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(logoAnimation)
-        logoAnimation.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        logoAnimation.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -150).isActive = true
-        logoAnimation.heightAnchor.constraint(equalToConstant: 130).isActive = true
-        logoAnimation.widthAnchor.constraint(equalToConstant: 130).isActive = true
-        logoAnimation.play()
+//        logoAnimation.frame = .zero
+//        logoAnimation.contentMode = .scaleAspectFit
+//        logoAnimation.loopAnimation = false
+//        logoAnimation.translatesAutoresizingMaskIntoConstraints = false
+//        view.addSubview(logoAnimation)
+//        logoAnimation.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+//        logoAnimation.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -150).isActive = true
+//        logoAnimation.heightAnchor.constraint(equalToConstant: 130).isActive = true
+//        logoAnimation.widthAnchor.constraint(equalToConstant: 130).isActive = true
+//        logoAnimation.play()
+        
+        perform(#selector(toQuoreSplashViewController), with: nil, afterDelay: 0)
+    }
+
+    @objc func toQuoreSplashViewController() {
+        let splash = NoteSplashViewController()
+        pushViewController(splash, animated: false)
     }
 }
 

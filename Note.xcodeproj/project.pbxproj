@@ -17,6 +17,10 @@
 		52F298982B1CF9610062943A /* NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F298972B1CF9610062943A /* NoteTests.swift */; };
 		52F298A22B1CF9610062943A /* NoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F298A12B1CF9610062943A /* NoteUITests.swift */; };
 		52F298A42B1CF9610062943A /* NoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F298A32B1CF9610062943A /* NoteUITestsLaunchTests.swift */; };
+		52F298B12B1F990C0062943A /* NoteSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F298B02B1F990C0062943A /* NoteSplashViewController.swift */; };
+		52F298B42B1F99D90062943A /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F298B32B1F99D90062943A /* Defines.swift */; };
+		52F298B62B1F9B820062943A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F298B52B1F9B820062943A /* UIViewController+Extension.swift */; };
+		52F298B82B202A0D0062943A /* SafeAreaLayout+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F298B72B202A0D0062943A /* SafeAreaLayout+Extension.swift */; };
 		6C6FBB6B24874A8479574696 /* Pods_Note_NoteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8766EA9657DF270F188D5EF0 /* Pods_Note_NoteUITests.framework */; };
 		88BFA7122B1DB56400FCE0F2 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BFA7112B1DB56400FCE0F2 /* MainNavigationController.swift */; };
 		88BFA7152B1DE46F00FCE0F2 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BFA7142B1DE46F00FCE0F2 /* UIColor+Extension.swift */; };
@@ -60,6 +64,10 @@
 		52F2989D2B1CF9610062943A /* NoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F298A12B1CF9610062943A /* NoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteUITests.swift; sourceTree = "<group>"; };
 		52F298A32B1CF9610062943A /* NoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52F298B02B1F990C0062943A /* NoteSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteSplashViewController.swift; sourceTree = "<group>"; };
+		52F298B32B1F99D90062943A /* Defines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defines.swift; sourceTree = "<group>"; };
+		52F298B52B1F9B820062943A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		52F298B72B202A0D0062943A /* SafeAreaLayout+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SafeAreaLayout+Extension.swift"; sourceTree = "<group>"; };
 		8766EA9657DF270F188D5EF0 /* Pods_Note_NoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Note_NoteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BFA7112B1DB56400FCE0F2 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		88BFA7142B1DE46F00FCE0F2 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
@@ -137,12 +145,14 @@
 		52F2987C2B1CF95F0062943A /* Note */ = {
 			isa = PBXGroup;
 			children = (
+				52F298B22B1F99B10062943A /* Model */,
 				88BFA7162B1DEDD000FCE0F2 /* Lottie */,
 				88BFA7132B1DE44100FCE0F2 /* Extension */,
 				52F2987D2B1CF95F0062943A /* AppDelegate.swift */,
 				52F2987F2B1CF95F0062943A /* SceneDelegate.swift */,
 				52F298812B1CF95F0062943A /* ViewController.swift */,
 				88BFA7112B1DB56400FCE0F2 /* MainNavigationController.swift */,
+				52F298B02B1F990C0062943A /* NoteSplashViewController.swift */,
 				52F298832B1CF95F0062943A /* Main.storyboard */,
 				52F298892B1CF9610062943A /* Assets.xcassets */,
 				52F2988B2B1CF9610062943A /* LaunchScreen.storyboard */,
@@ -169,10 +179,20 @@
 			path = NoteUITests;
 			sourceTree = "<group>";
 		};
+		52F298B22B1F99B10062943A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52F298B32B1F99D90062943A /* Defines.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		88BFA7132B1DE44100FCE0F2 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				88BFA7142B1DE46F00FCE0F2 /* UIColor+Extension.swift */,
+				52F298B52B1F9B820062943A /* UIViewController+Extension.swift */,
+				52F298B72B202A0D0062943A /* SafeAreaLayout+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -435,11 +455,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F298B62B1F9B820062943A /* UIViewController+Extension.swift in Sources */,
 				88BFA7122B1DB56400FCE0F2 /* MainNavigationController.swift in Sources */,
 				52F298822B1CF95F0062943A /* ViewController.swift in Sources */,
+				52F298B82B202A0D0062943A /* SafeAreaLayout+Extension.swift in Sources */,
 				52F2987E2B1CF95F0062943A /* AppDelegate.swift in Sources */,
+				52F298B12B1F990C0062943A /* NoteSplashViewController.swift in Sources */,
 				88BFA7152B1DE46F00FCE0F2 /* UIColor+Extension.swift in Sources */,
 				52F298802B1CF95F0062943A /* SceneDelegate.swift in Sources */,
+				52F298B42B1F99D90062943A /* Defines.swift in Sources */,
 				52F298882B1CF95F0062943A /* Note.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,9 +641,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = X985NLLD4J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Note/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -648,9 +672,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = X985NLLD4J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Note/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

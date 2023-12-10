@@ -5,6 +5,7 @@
 //  Created by MacBook Pro on 3/12/23.
 //
 
+import BackgroundTasks
 import UIKit
 import CoreData
 
@@ -18,6 +19,21 @@ import CoreData
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.rootViewController = MainNavigationController()
+        
+        if #available(iOS 13.0, *) {
+            do {
+                let request = BGAppRefreshTaskRequest(identifier: Bundle.main.bundleIdentifier ?? "")
+                request.earliestBeginDate = Calendar.current.date(byAdding: .second, value: 5, to: Date())
+                try BGTaskScheduler.shared.submit(request)
+
+                print("Submitted task request")
+            } catch {
+                print("Failed to submit BGTask")
+            }
+        } else {
+            application.setMinimumBackgroundFetchInterval(UIApplication.backgroundFetchIntervalMinimum)
+        }
+        
         return true
     }
 
