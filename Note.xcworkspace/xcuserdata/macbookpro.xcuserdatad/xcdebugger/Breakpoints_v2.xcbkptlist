@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "563F5522-54A8-4996-8D9D-181D7F769A2A"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDA9A7DB-EACD-45C9-9C6C-784B9F876011"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Note/MainNavigationController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "MainNavigationController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DDA9A7DB-EACD-45C9-9C6C-784B9F876011 - 263244ba49773bae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Note.MainNavigationController.__allocating_init(navigationBarClass: Swift.Optional&lt;Swift.AnyObject.Type&gt;, toolbarClass: Swift.Optional&lt;Swift.AnyObject.Type&gt;) -&gt; Note.MainNavigationController"
+                  moduleName = "Note"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Documents/Note/Note/MainNavigationController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "DDA9A7DB-EACD-45C9-9C6C-784B9F876011 - a0808697cb44dbdd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Note.MainNavigationController.init(navigationBarClass: Swift.Optional&lt;Swift.AnyObject.Type&gt;, toolbarClass: Swift.Optional&lt;Swift.AnyObject.Type&gt;) -&gt; Note.MainNavigationController"
+                  moduleName = "Note"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Documents/Note/Note/MainNavigationController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "DDA9A7DB-EACD-45C9-9C6C-784B9F876011 - 2402b88fbea796ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Note.MainNavigationController.__allocating_init(rootViewController: __C.UIViewController) -&gt; Note.MainNavigationController"
+                  moduleName = "Note"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Documents/Note/Note/MainNavigationController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "DDA9A7DB-EACD-45C9-9C6C-784B9F876011 - f8d1e0df5ad6c4d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Note.MainNavigationController.init(rootViewController: __C.UIViewController) -&gt; Note.MainNavigationController"
+                  moduleName = "Note"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Documents/Note/Note/MainNavigationController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "DDA9A7DB-EACD-45C9-9C6C-784B9F876011 - 7703e954071973da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Note.MainNavigationController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Note.MainNavigationController"
+                  moduleName = "Note"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Documents/Note/Note/MainNavigationController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "DDA9A7DB-EACD-45C9-9C6C-784B9F876011 - 31d7ae1d25934d48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Note.MainNavigationController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Note.MainNavigationController"
+                  moduleName = "Note"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Documents/Note/Note/MainNavigationController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "DDA9A7DB-EACD-45C9-9C6C-784B9F876011 - cdd1033c30fdfdd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Note.MainNavigationController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Note.MainNavigationController&gt;"
+                  moduleName = "Note"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Documents/Note/Note/MainNavigationController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "DDA9A7DB-EACD-45C9-9C6C-784B9F876011 - 2f3c08ba84a7dd94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Note.MainNavigationController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Note.MainNavigationController&gt;"
+                  moduleName = "Note"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Documents/Note/Note/MainNavigationController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "DDA9A7DB-EACD-45C9-9C6C-784B9F876011 - a1c77f89456b692b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Note.MainNavigationController.__deallocating_deinit"
+                  moduleName = "Note"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookpro/Documents/Note/Note/MainNavigationController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
