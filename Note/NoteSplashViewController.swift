@@ -61,8 +61,8 @@ class NoteSplashViewController: UIViewController {
     @objc func toLoginVC() {
         UIView.animate(withDuration: 0.005) {
             self.view.alpha = 0
-//            let loginViewController = LoginViewController()
-//            self.navigationController?.pushViewController(loginViewController, animated: false)
+            let dashboardScreenVC = DashboardScreenVC()
+            self.navigationController?.pushViewController(dashboardScreenVC, animated: false)
         }
     }
 }
